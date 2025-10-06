@@ -1,2 +1,2 @@
 # LendingClubCaseStudy
-EDA Lending Clin
+EDA Lending Case study
