@@ -1,6 +1,7 @@
 # Project Name
 > Outline a brief description of your project.
 
+This project analyzes loan default risk for a consumer finance company using exploratory data analysis (EDA). By examining historical loan data, the project identifies key factors and patterns that contribute to loan defaults, helping the company make informed lending decisions and minimize financial losses.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -8,7 +9,6 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 - This project is a case study focused on risk analytics in banking and financial services, specifically analyzing loan default risk using exploratory data analysis (EDA).
@@ -21,6 +21,7 @@
 
 - **Conclusion 1:**  
   Higher interest rates are strongly associated with increased loan defaults. The analysis shows that the majority of defaults occur in loans with interest rates between 15% and 25%, with the highest default rates observed in the 22.5-25% range. This suggests that applicants who are offered higher interest rates—likely due to higher perceived risk—are more likely to default on their loans.
+
 
 - **Conclusion 2:**  
   Loan term significantly impacts default rates. Although 36-month loans are more common, 60-month loans have a much higher proportion of defaults—about 25% of 60-month loans default compared to only 10% of 36-month loans. This indicates that longer-term loans are riskier and more likely to result in charge-offs.
@@ -41,18 +42,10 @@
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- This project was inspired by the Lending Club loan default risk analytics case study from UpGrad and EDA best practices.
+- References:
+  - Lending Club Loan Dataset
+  - Official pandas, numpy, matplotlib, and seaborn documentation
 
 ## Contact
 Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
