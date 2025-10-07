@@ -1,4 +1,4 @@
-# Lending Club Case Study
+# Lending Club Case Study: Analyzing Loan Defaults
 
 > This project analyzes loan default risk for a consumer finance company using exploratory data analysis (EDA). By examining historical loan data, the project identifies key factors and patterns that contribute to loan defaults, helping the company make informed lending decisions and minimize financial losses.
 
