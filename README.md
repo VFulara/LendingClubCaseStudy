@@ -23,7 +23,7 @@
 
 
 ## Conclusions
-- People with shorter loan term are more likely to default
+- People with longer loan term(60M) are more likely to default
 - People from rental house are more likely to default
 - People with Lending club grade 'G' are more likely to default
 
