@@ -11,29 +11,34 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This project is a case study focused on risk analytics in banking and financial services, specifically analyzing loan default risk using exploratory data analysis (EDA).
+- The background of the project involves a consumer finance company that provides various types of loans to urban customers. The company needs to make informed decisions on loan approvals to minimize financial losses due to defaults.
+- The business problem addressed is identifying patterns and key factors that indicate whether a loan applicant is likely to default.
+- The dataset used contains information about past loan applicants from 2007 to 2011, including whether they fully paid, are currently paying, or defaulted ('charged-off') on their loans. 
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-- Conclusion 5 from the analysis by Tarun
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- **Conclusion 1:**  
+  Higher interest rates are strongly associated with increased loan defaults. The analysis shows that the majority of defaults occur in loans with interest rates between 15% and 25%, with the highest default rates observed in the 22.5-25% range. This suggests that applicants who are offered higher interest rates—likely due to higher perceived risk—are more likely to default on their loans.
+
+- **Conclusion 2:**  
+  Loan term significantly impacts default rates. Although 36-month loans are more common, 60-month loans have a much higher proportion of defaults—about 25% of 60-month loans default compared to only 10% of 36-month loans. This indicates that longer-term loans are riskier and more likely to result in charge-offs.
+
+- **Conclusion 3:**  
+  Credit grade is a strong indicator of loan default risk. Lower credit grades (such as F and G) have significantly higher default rates, with grade G experiencing defaults in over 30% of cases, compared to only 6% for grade
+
+- **Conclusion 4:**  
+  The purpose of the loan influences default rates. Loans taken for small business purposes have the highest default rate at around 25%, while other purposes such as credit card, home improvement, and car loans have lower default rates (typically 10–15%). This suggests that loans for small businesses are riskier for lenders compared to other loan purposes.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python libraries
+     pandas
+     numpy 
+     matplotlib
+     seaborn
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
